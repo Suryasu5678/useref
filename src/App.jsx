@@ -3,6 +3,9 @@ import Text from "./Components/Text";
 import MultipleExpressionsTernary from "./Components/MultipleExpressionsTernary";
 import HtmlRef from "./Components/HtmlRef";
 import PreviousValue from "./Components/RefModel";
+import RefUsing from "./Components/RefUsing";
+import Effect from "./Components/Effect";
+
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Text n="Hello" />
       <PreviousValue />
       <HtmlRef />
+      <RefUsing />
+      <Effect/>
+
     </div>
   );
 };
